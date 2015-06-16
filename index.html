@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
 <title>Aeolyus | Richard Huang</title>
@@ -12,6 +12,8 @@
 <script src="Semantic-UI-1.12.3/dist/semantic.js"></script>
 
 <script src="test.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="typed.js"></script>
 
 </head>
 
@@ -22,12 +24,24 @@
 	<h1 class = "ui header">Aeolyus | Richard Huang</h1>
 </div>
 <div class="ui transition information animating scale in" style="-webkit-animation-duration: 2000ms; animation-duration: 1000ms;">
-<p>I have no idea what I'm doing</p>
+<p>I have no idea what I'm doing.</p>
 </div>
+
+<script>
+  $(function(){
+      $(".element").typed({
+        strings: ["你好", "Ciao","Hola","Guten Tag","Aloha","Xin chào","今日は ","Bonjour", "Hello"],
+        typeSpeed: 50
+      });
+  });
+</script>
+<span class="element"></span>
+<br/>
+<br/>
 
 <div class="large animated fade ui button">
             <div class="visible content">Buy me a cup of hot chocolate</div>
-            <div class="hidden content">Please</div>
+            <div class="hidden content">Donate</div>
 </div>
 
 </body>
