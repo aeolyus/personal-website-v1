@@ -31737,6 +31737,7 @@ html {
 body{
 	text-align: center;
 	background-color: #F5F5F5;
+	overflow-x: hidden;
 }
 #home p{
 	text-align: center;
