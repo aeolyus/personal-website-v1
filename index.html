@@ -1,98 +1,132 @@
-﻿<!DOCTYPE html>
-<meta name="viewport" content="width=device-width, initial-scale=0.67">
-<html>
-<head>
-<title>Aeolyus | Richard Huang</title>
+<!DOCTYPE html>
+  <head>
+    <meta charset="utf-8"/>
+    <title>Richard Huang</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta property="og:title" content="Richard Huang">
+    <meta property="og:site_name" content="Richard Huang">
 
-<link rel="shortcut icon" href="reference/icon.ico" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="components/main.css">
 
-<link rel="stylesheet" type="text/css" href="reference/format.css">
+    <script src="https://use.fontawesome.com/68b61728cc.js"></script>
+    <script   src="https://code.jquery.com/jquery-2.2.2.min.js"></script>
+    <script src="components/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
+    <script src="components/main.js"></script>
+  </head>
 
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 
-<script src="reference/javascript.js"></script>
+  <body>
 
-</head>
+    <div class="head-nav">
+      <div class="container"><a href="#" data-activates="nav-mobile" class="button-collapse top-nav hide-on-large-only"><i class="material-icons medium mdi-navigation-menu white-text text-accent-2">menu</i></a></div>
+      <ul id="nav-mobile" class="side-nav fixed blue-grey lighten-5">
+        <li class="logo"><a href="/" class="brand-logo">
+          <img id="front-page-logo" class="responsive-img circle hover"src="images/profile.jpg" alt="" /></a>
+        </li>
+        <li  class="active" ><a href="/">Home</a>
+        <li ><a href="#">About</a>
+        <li ><a href="#">Things I can do</a>
+        <li ><a href="#">A Few Accomplishments</a>
+        <li ><a href="#">Contact</a>
+      </ul>
+    </div>
+    <main>
+
+      <div class="parallax-container" id="index-banner">
+          <div class="section no-pad-bot">
+            <div class="container">
+              <br><br><br><br><br><br><br>
+              <h1 class="header center text-lighten-2">Richard Huang</h1>
+              <div class="row center">
+                <h5 class="header white-text col s12 light">I should place something more important here huh.</h5>
+              </div>
+              <div class="parallax"><img src="images/banner.jpg"/></div>
+          </div>
+      </div>
+    </div>
+
+      <div class="container">
+        <div class="section">
+            <div class="row">
+                <h5 class="center">I am <span id="texttyped"></span></h5>
+                <p class="center">I have no idea what I'm doing anymore.</p>
+            </div>
+          <div class="row">
+            <div class="col s12 m6">
+              <div class="icon-block">
+                <h2 class="center icon"><i class="mdi-content-flag"></i></h2>
+                <h5 class="center">Hacker</h5>
+                <p class="light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis erat velit, molestie consequat nunc ut, elementum vehicula neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sodales convallis egestas. Maecenas efficitur massa sit amet quam euismod venenatis. Praesent risus nunc, interdum ac libero eu, viverra rhoncus elit. Fusce scelerisque ac lectus vel luctus. Donec aliquet finibus imperdiet.</p>
+              </div>
+            </div>
+
+            <div class="col s12 m6">
+              <div class="icon-block">
+                <h2 class="center icon"><i class="mdi-hardware-desktop-windows"></i></h2>
+                <h5 class="center">Kungfu Master</h5>
+                <p class="light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mi lectus, viverra sed interdum et, commodo eu metus. Curabitur finibus interdum semper. Vestibulum egestas a quam eu ultricies. Donec in lorem at elit hendrerit vulputate non vel lectus. Vestibulum sagittis tellus ac arcu ullamcorper, eget lobortis leo aliquet. Fusce lorem tortor, blandit sed pellentesque vitae, pellentesque at felis. Sed quis scelerisque turpis. Mauris eu lorem varius, varius leo id, lobortis ipsum. Quisque euismod diam a lectus ultrices finibus. In sollicitudin libero id quam vulputate, vel semper elit egestas. Mauris ullamcorper at justo quis cursus.</p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col s12 m6">
+              <div class="icon-block">
+                <h2 class="center icon"><i class="mdi-social-people"></i></h2>
+                <h5 class="center">Programmer</h5>
+                <p class="light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla consequat risus non est laoreet sollicitudin. Morbi sodales ipsum lorem, at porttitor elit porta nec. Nulla elementum pharetra nibh quis porta. Donec bibendum tempus mi eu interdum. Quisque et lacinia libero. Duis malesuada gravida euismod. Fusce lacus arcu, congue sed dui eu, malesuada venenatis mauris. Donec rhoncus posuere enim, ut venenatis leo porttitor vitae. Suspendisse maximus metus ut ligula auctor interdum. Duis ornare augue id odio imperdiet, in faucibus leo faucibus. Nulla elementum erat et felis dictum dictum. Suspendisse vel urna vel ex gravida auctor.</p>
+              </div>
+            </div>
+
+            <div class="col s12 m6">
+              <div class="icon-block">
+                <h2 class="center icon"><i class="mdi-action-swap-horiz"></i></h2>
+                <h5 class="center">Nomad</h5>
+                <p class="light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras placerat porttitor mauris vitae aliquam. Donec vulputate sit amet elit sit amet mollis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam sit amet gravida risus. Suspendisse potenti. In nec sem neque. Aenean non enim dui. Phasellus facilisis lacus quis eros dapibus porta. Vestibulum pulvinar ipsum sed ex malesuada consequat. Phasellus at auctor libero. In hac habitasse platea dictumst. Sed hendrerit bibendum augue vitae mattis. Vestibulum quis finibus tortor.</p>
+              </div>
+            </div>
+          </div>
+          <br>
+        </div>
+      </div>
+
+      <div class="parallax-container" id="bottom-banner">
+        <div class="parallax"><img src="images/city.jpg"/></div>
+      </div>
+
+    </main>
 
 
-<body id ="home">
-<div class="ui transition information animating fade in" style="-webkit-animation-duration: 2000ms; animation-duration: 2500ms;">
 
-	<h1 class = "ui header">Aeolyus | Richard Huang</h1>
-</div>
-<div class="ui transition information animating scale in" style="-webkit-animation-duration: 2000ms; animation-duration: 1500ms;">
-<p>I have no idea what I'm doing.</p>
-</div>
 
-<script>
-  $(function(){
-      $(".element").typed({
-        strings: ["你好", "Ciao","Hola","Guten Tag","Aloha","Chào","今日は ","Bonjour", "Hello"],
-        typeSpeed: 50
-      });
-  });
-</script>
-<span class="element"></span>
+    <footer class="page-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col l6">
+            <h5 class="white-text">Footer</h5>
+            <p class="grey-text text-lighten-4">I should put something useful here.</p>
+          </div>
+          <div class="col l6">
+            <h5 class="white-text">Connect</h5>
+            <ul id="icons">
+              <li><a class="fa fa-facebook fa-2x white-text" href="https://www.facebook.com/aeolyus/" target="_blank"></a></li>
+              <li><a class="fa fa-github fa-2x white-text" href="https://github.com/aeolyus/" target="_blank"></a></li>
+              <li><a class="fa fa-envelope fa-2x white-text" href="mailto:richardhuang.huang@gmail.com" target="_blank"></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
 
-<h3>Projects</h3>
-<div class="ui transition information animating transition fly right in" style="-webkit-animation-delay: 1000ms; animation-delay: 1000ms; -webkit-animation-duration: 2000ms; animation-duration: 1000ms;">
-<a href = "https://github.com/Aeolyus/firstjavagame/blob/master/FirstJavaGame.jar?raw=true" target="_blank">
-<div class="large animated fade ui button">
-            <div class="visible content">First Java Game</div>
-            <div class="hidden content">Download</div>
-</div>
-</a>
+      <div class="footer-copyright">
+        <div class="container">
+          &copy; Richard Huang
+          <a class="grey-text text-lighten-2 right" href="https://tldrlegal.com/license/mit-license">MIT License</a>
+        </div>
+      </div>
 
-<br>
-<br>
+    </footer>
 
-<a href = "https://github.com/Aeolyus/multithreadedChatRoom/blob/master/chatRoom.jar?raw=true" target="_blank">
-<div class="large animated fade ui button">
-            <div class="visible content">Pure Java Multithreaded Chatroom</div>
-            <div class="hidden content">Download</div>
-</div>
-</a>
-</div>
-<br/>
-<br/>
-
-<div id = "footer">
-<br/>
-<div class="ui transition information animating transition fly right in" style="-webkit-animation-delay: 1500ms; animation-delay: 1500ms; -webkit-animation-duration: 2000ms; animation-duration: 1000ms;">
-<a href = "https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=NF87R3548WXHY&lc=US&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted" target="_blank">
-<div class="large animated fade ui button">
-            <div class="visible content">Buy Richard a cup of hot chocolate</div>
-            <div class="hidden content">Donate</div>
-</div>
-</a>
-</div>
-
-<div class="ui transition information animating transition fly left in" style="-webkit-animation-delay: 2000ms; animation-delay: 2000ms; -webkit-animation-duration: 2000ms; animation-duration: 1000ms;">
-
-<p>Complain to Richard about how terrible this website is. Or just contact him.</p>
-
-<div class="ui transition information animating transition fly right in" style="-webkit-animation-delay: 2500ms; animation-delay: 2500ms; -webkit-animation-duration: 2000ms; animation-duration: 1000ms;">
-<a href = "https://www.facebook.com/profile.php?id=100001023655497" target="_blank">
-<div class="ui facebook button">
-    <i class="facebook icon"></i>
-    Facebook
-  </div>
-</a>
-
-<a href = "https://www.twitter.com/Aeolyus" target="_blank">
-<div class="ui twitter button">
-    <i class="twitter icon"></i>
-    Twitter
-  </div>
-</a>
-
-<a href = "https://plus.google.com/+RichardHuangAeolyus" target="_blank">  
-<div class="ui google plus button">
-    <i class="google plus icon"></i>
-    Google Plus
-  </div>
-</a>
-</div>
-</div>
-</body>
+  </body>
 </html>
