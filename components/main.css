@@ -84,13 +84,13 @@ main
 
 #index-banner
 {
-  padding-top:0px;
+  padding-top:0;
 }
 
 #bottom-banner
 {
-  padding-top:0px;
-  padding-bottom: 0px;
+  padding-top:0;
+  padding-bottom: 0;
 }
 
 
