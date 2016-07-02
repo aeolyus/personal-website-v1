@@ -5,15 +5,14 @@ footer.page-footer
   margin-top:0;
 }
 
-.brand-logo
+.brand-logo:hover
 {
-  pointer-events: none;
+  background-color: transparent !important;
 }
 
 #front-page-logo {
   display: inline-block;
   height: auto;
-  pointer-events: none;
   width: 80%;
 }
 
