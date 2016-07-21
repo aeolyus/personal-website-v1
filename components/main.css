@@ -15,7 +15,7 @@ footer.page-footer {
     text-align: center;
     padding-top: 30px;
     padding-bottom: 30px;
-    background-color: #4acaa8;
+    background-color: #4acaa8 !important;
     height: 200px;
     -moz-transition: background-color 0.3s ease 0s;
     -o-transition: background-color 0.3s ease 0s;
@@ -25,21 +25,26 @@ footer.page-footer {
     -moz-transition: background-color 0.3s ease 0s;
     -o-transition: background-color 0.3s ease 0s;
     -webkit-transition: background-color 0.3s ease 0s;
+    background-color: white !important;
+}
+#nav-mobile
+{
+  background-color: #cfd8dc;
 }
 .side-nav li {
     -moz-transition: background-color 0.3s ease 0s;
     -o-transition: background-color 0.3s ease 0s;
     -webkit-transition: background-color 0.3s ease 0s;
+    background-color: #cfd8dc;
 }
 .side-nav li:hover {
     -moz-transition: background-color 0.3s ease 0s;
     -o-transition: background-color 0.3s ease 0s;
     -webkit-transition: background-color 0.3s ease 0s;
-    background-color: #ffffff !important;
+    background-color: white;
 }
 .side-nav li.active {
-    background-color: none;
-    color: whi;
+    background-color: white;
 }
 main {
     flex: 1 0 auto;
