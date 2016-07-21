@@ -25,14 +25,21 @@ footer.page-footer {
     -moz-transition: background-color 0.3s ease 0s;
     -o-transition: background-color 0.3s ease 0s;
     -webkit-transition: background-color 0.3s ease 0s;
-    background-color: #eceff1 !important;
 }
-ul.side-nav.fixed li:hover {
-    background-color: #ffffff;
+.side-nav li {
+    -moz-transition: background-color 0.3s ease 0s;
+    -o-transition: background-color 0.3s ease 0s;
+    -webkit-transition: background-color 0.3s ease 0s;
 }
-ul.side-nav.fixed li.active {
-    background-color: #565656;
-    color: white;
+.side-nav li:hover {
+    -moz-transition: background-color 0.3s ease 0s;
+    -o-transition: background-color 0.3s ease 0s;
+    -webkit-transition: background-color 0.3s ease 0s;
+    background-color: #ffffff !important;
+}
+.side-nav li.active {
+    background-color: none;
+    color: whi;
 }
 main {
     flex: 1 0 auto;
