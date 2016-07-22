@@ -27,9 +27,8 @@ footer.page-footer {
     -webkit-transition: background-color 0.3s ease 0s;
     background-color: white !important;
 }
-#nav-mobile
-{
-  background-color: #cfd8dc;
+#nav-mobile {
+    background-color: #cfd8dc;
 }
 .side-nav li {
     -moz-transition: background-color 0.3s ease 0s;
