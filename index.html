@@ -22,6 +22,9 @@
 </head>
 
 <body>
+    <script>
+        Materialize.toast("Not quite done. But do enjoy, chap.", 5000);
+    </script>
     <div class="head-nav">
         <div class="container"><a href="#" data-activates="nav-mobile" class="button-collapse top-nav hide-on-large-only"><i class="material-icons medium mdi-navigation-menu white-text text-accent-2">menu</i></a></div>
         <ul id="nav-mobile" class="side-nav fixed">
@@ -31,10 +34,8 @@
             </li>
             <li class="active"><a href="#">Home</a></li>
             <li><a href="#about">About</a></li>
-            <!-- hopefully temporary -->
-            <li><a href="#" onclick="Materialize.toast('Nothing. Unless you count breaking things.', 3000)">Things I can do</a></li>
-            <!-- same with this one -->
-            <li><a href="#" onclick="Materialize.toast('I once broke a chicken.', 3000)">A Few Accomplishments</a></li>
+            <li><a href="#things">Things I Can Do</a></li>
+            <li><a href="#accomplishments">A Few Accomplishments</a></li>
             <li><a href="http://resume.aeolyus.me/" target="_blank">Resume</a></li>
             <li><a href="#footer">Contact</a></li>
         </ul>
@@ -65,6 +66,7 @@
                 <div class="row">
                     <h5 class="center">I am <span id="texttyped"></span></h5>
                     <center class="white-text">Hey look hidden text!</center>
+                    <h4 class="center">About</h4>
                 </div>
                 <div class="row">
                     <div class="col s12 m6">
@@ -111,9 +113,86 @@
             </div>
         </div>
 
+
+
+        <div class="parallax-container" id="bottom-banner">
+            <div class="parallax"><img src="https://c2.staticflickr.com/2/1503/24838333282_fea9932a8c_k.jpg" /></div>
+        </div>
+
+        <div id="things" class="container">
+            <div class="section">
+                <div class="row">
+                    <h4 class="center">Things I Can Do</h4>
+                </div>
+                <div class="row">
+                    <div class="col s12 m6">
+                        <h5 class="center">Programming Languages</h5>
+                        <ul class="collapsible" data-collapsible="accordion">
+                            <li>
+                                <div class="collapsible-header active"><i class="fa fa-coffee"></i>Java</div>
+                                <div class="collapsible-body">
+                                    <p>Java is one of the more recent languages I am currently picking up. I use it mainly for programming our FRC robotics team's robot.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="collapsible-header"><i class="fa fa-html5"></i>HTML/CSS</div>
+                                <div class="collapsible-body">
+                                    <p>One of my earlier learnt languages. Mostly used to make websites (kind of its main purpose) such as this one. Woo.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="collapsible-header"><i class="fa fa-code"></i>Javascript</div>
+                                <div class="collapsible-body">
+                                    <p>First language I ever learned. However, after the introduction of things such as Node.js, I've got a lot more to learn. After all, one never ceases to learn.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="collapsible-header"><i class="fa fa-terminal"></i>Bash/Unix Shell</div>
+                                <div class="collapsible-body">
+                                    <p>I can write very basic bash scripts and also use a Unix Terminal pretty well.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="collapsible-header"><i class="fa fa-code"></i>Python</div>
+                                <div class="collapsible-body">
+                                    <p>Still learning it. The easy syntax makes it easy to learn. Mostly use it for scripting tasks that are a hassle.</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col s12 m6">
+                        <h5 class="center">Tech-Related Skills</h5>
+                        <ul class="collapsible" data-collapsible="accordion">
+                            <li>
+                                <div class="collapsible-header active"><i class="fa fa-linux"></i>Linux</div>
+                                <div class="collapsible-body">
+                                    <p>Been playing around with Linux for a while. I've got most of the basics and fundamentals down. The usual distros I use include Ubuntu, elementaryOS, as well as Kali Linux. Really want to try Arch.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="collapsible-header"><i class="fa fa-code-fork"></i>Git</div>
+                                <div class="collapsible-body">
+                                    <p>Been using git for around a while now. I pretty much know it front and back. Github is my main go-to git server.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="collapsible-header"><i class="fa fa-wrench"></i>Robots</div>
+                                <div class="collapsible-body">
+                                    <p>Ever since the start of high school, I've been in the robotics club as a programmer and also electrical person. If robots are going to take over the world, I might as well know how to make one.</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <br>
+            </div>
+        </div>
+
         <div class="parallax-container" id="bottom-banner">
             <div class="parallax"><img src="images/city.jpg" /></div>
         </div>
+
     </main>
 
     <footer id="footer" class="page-footer">

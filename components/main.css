@@ -132,8 +132,11 @@ i {
     color: #4acaa8;
 }
 #toast-container {
-  top: auto !important;
-  right: auto !important;
-  bottom: 35%;
-  left:1%;
+    top: auto !important;
+    right: auto !important;
+    bottom: 35%;
+    left: 1%;
+}
+h4 {
+    color: #4acaa8;
 }
