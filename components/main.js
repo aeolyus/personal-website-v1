@@ -23,7 +23,17 @@ $(function() {
         var $anchor = $(this);
         $('html, body').stop().animate({
             scrollTop: $($anchor.attr('href')).offset().top
-        }, 1500, 'easeInOutExpo');
+        }, 1300, 'easeInOutExpo');
+        event.preventDefault();
+    });
+});
+
+$(function() {
+    $('a.end-scroll').bind('click', function(event) {
+        var $anchor = $(this);
+        $('html, body').stop().animate({
+            scrollTop: $($anchor.attr('href')).offset().top + $($anchor.attr('href')).outerHeight(true) - $(window).height()
+        }, 1300, 'easeInOutExpo');
         event.preventDefault();
     });
 });
