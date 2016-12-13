@@ -33,12 +33,12 @@
                 <a href="/" class="brand-logo">
                     <img id="front-page-logo" class="responsive-img circle hover" src="images/profile.jpg" alt="" /></a>
             </li>
-            <li class="active"><a class="page-scroll" href="#index-banner">Home</a></li>
-            <li><a class="page-scroll" href="#about">About</a></li>
-            <li><a class="page-scroll" href="#things">Things I Can Do</a></li>
-            <li><a class="page-scroll" href="#accomplishments" onclick="Materialize.toast('I\'m still alive. Woo.', 2000, 'rounded')">A Few Accomplishments</a></li>
-            <li><a href="http://resume.aeolyus.me/" target="_blank">Resume</a></li>
-            <li><a class="page-scroll" href="#footer">Contact</a></li>
+            <li class="active"><a class="page-scroll" href="#index-banner" onclick="$('.button-collapse').sideNav('hide');">Home</a></li>
+            <li><a class="page-scroll" href="#about" onclick="$('.button-collapse').sideNav('hide');">About</a></li>
+            <li><a class="page-scroll" href="#things" onclick="$('.button-collapse').sideNav('hide');">Things I Can Do</a></li>
+            <li><a class="page-scroll" href="#accomplishments" onclick="Materialize.toast('I\'m still alive. Woo.', 2000, 'rounded');$('.button-collapse').sideNav('hide');">A Few Accomplishments</a></li>
+            <li><a href="http://resume.aeolyus.me/" target="_blank" onclick="$('.button-collapse').sideNav('hide');">Resume</a></li>
+            <li><a class="page-scroll" href="#footer" onclick="$('.button-collapse').sideNav('hide');">Contact</a></li>
         </ul>
     </div>
     <main>
