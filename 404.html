@@ -10,9 +10,17 @@ permalink: /404.html
     <meta property="og:site_name" content="Richard Huang">
     <link rel="icon" href="images/profile.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
+    <script src="components/snowstorm-min.js"></script>
 </head>
 
 <body class="valign-wrapper lighten-5" style="background-color:#4acaa8;padding:20px">
+    <script>
+        var d = new Date();
+        if(d.getMonth()==11||d.getMonth()==0)
+            snowStorm.resume();
+        else
+            snowStorm.stop();
+    </script>
     <span style="font-weight:500;font-size:10vw;padding:10px" class="valign">ERROR 404</span>
     <br>
     <span style="font-weight:100;font-size:3vw;padding:10px" class="valign">I probably got lazy and forgot to add the nonexistent page you were looking for. My bad.</span>
