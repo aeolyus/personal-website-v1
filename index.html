@@ -26,14 +26,10 @@
     <script>
         Materialize.toast("Not quite done, but enjoy.", 3000, 'rounded');
         var d = new Date();
-        snowStorm.stop();
-        if(d.getMonth()==11||d.getMonth()==0){
-            snowStorm.snowColor="#4FC3F7";
-            snowStorm.snowStick=false;
-            snowStorm.useTwinkeEffect=true;
-            snowStorm.exludeMobile=false;
+        if(d.getMonth()==11||d.getMonth()==0)
             snowStorm.resume();
-        }
+        else
+            snowStorm.stop();
     </script>
     <div class="head-nav">
         <div class="container"><a href="#" data-activates="nav-mobile" class="button-collapse top-nav hide-on-large-only"><i class="material-icons medium mdi-navigation-menu white-text text-accent-2">menu</i></a></div>
