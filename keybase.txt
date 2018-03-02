@@ -1,0 +1,75 @@
+==================================================================
+https://keybase.io/aeolyus
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://aeolyus.github.io
+  * I am aeolyus (https://keybase.io/aeolyus) on keybase.
+  * I have a public key with fingerprint 88F2 6186 3606 8F26 DCEF  B975 85F6 DA4B 8B4D 6658
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "010172ae712b81c61dee923de1f12eb283155fb07a357dc62716526b432efaac9c680a",
+      "fingerprint": "88f2618636068f26dcefb97585f6da4b8b4d6658",
+      "host": "keybase.io",
+      "key_id": "85f6da4b8b4d6658",
+      "kid": "010172ae712b81c61dee923de1f12eb283155fb07a357dc62716526b432efaac9c680a",
+      "uid": "85c12a9cd05e297ba9cb41565c5afe19",
+      "username": "aeolyus"
+    },
+    "service": {
+      "hostname": "aeolyus.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1519966548,
+  "expire_in": 157680000,
+  "prev": "8c4726124141fad8a86313665134158aaf925cda97c1e450dd7e96532920516f",
+  "seqno": 13,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.76
+Comment: https://keybase.io/crypto
+
+yMNBAnicrVJrTBRXFF5YQVxqiwFka4GyEwktLDp3dp4bSR+mLa8qfWC1oOs87sCw
+uLPsS8jWJQpIFWsa8QFaqoZSpaXlZU1QV7KVpIBBFKwtbKUYSBraEK2PqkFrZ6z9
+0aQ/e//cc8/9vu+c79zbt1Cr0YXU/DGeU/emuDbkfOATt+b9hrF3vQgnCxWI2YtY
+4eMNlgrQ6bJYJQExIyhAAYWxkAIYRwOeBAKEDGYSIBABBjmMNgGCEDmUYk0EJfAk
+RgGSwEgON2FQZFme4UkaZREjIkq2IuiwOySbS5GlaREjAU2aSJRUQ4GHIsdQBE2I
+pMDiHM3hAkkStEIslp0qQ2mOY51wmSQrOeVgedzef+D/577dT+rwAGMZXkAJiDEU
+p4QcDgiS4AlWhIBRgU7osLGboIJmoVxa4XYiW4yIkvRIPFTnqhr5N2BZkeQqdnN/
+e7I7ZJfMy6XKdbHLZXeaVbqrwq7iN0PO8kTJwkk2QZmlwvBAh1OSbYgZKEjeJanS
+gAAMo0wCp40ILLdLDmiRVARBKX6UpdaBHtURj1PKE2A4wIHICjSrPAYwKUxgUozR
+LCsyGMELLEPxAOIEKggUZEjChDEYSgBSRFRvZTZZ0TYpfbJFiqZTKrKxLrcDIlu+
+DRTO04ToNOFhoeon0+gWRP3z9e5MPfMw4fx6beyVIJtpbO7ZugE96MEzVpvf3vNy
+lXfb8gsThYM/p/oMWdLh3vHByOPo2MQvKWuqwgrYrg2zRyteO/VK+KIV762VL9fZ
+uO7W+YvPGNa5xfHhxt37h57K9VOZK6YdWddf8O8TP8zfmx7KP+r21A9XG4Pawh9N
+1646y0N9JzR4xrbcyYgvq/Q/0IGdyXOZIytPlnYvadkYbYntm4g58ca8uyN77rPD
+7saTS4Wbz96eXXRgVKcl0n/bnvd0wq+Zz0VfSpv8Ohj5VUryZzdCsnNS9TVND43J
+kztOfwRnNjVmnNUNB6cagtWrAqNht19sij26s5ooMR872BbR6l2zJP9c3sbmmXzn
+sSosXND02S62x/YYpt2++YKuPWew22e1tCUkGqK9caNLz358bvuCCx13h97pbM47
+ZOy8Vdkf+D6qhTg+MDtyKHJgeXP9cG9ndcIc+taRV3366RjPo85v7vSuTtcmtcat
+v1Zc0v8gZP+qGWuHP2kku6du3Z/6vvvmEntl16eLN2uFAv/nUnB0/EH5S4kfnGo7
+Et1zYIdckBt/qyOj5l786d+DcfHXA9Z9Sc8f/s7fVR91dZcPT22wxrwemovuGhyo
+lSLuXQYkbLlUGX0jmGXQp6z8gsk5Q13x1/Y2Jlem1TYNtafp6b32mJrdN6fLEjXj
+wYi5/qmZrWVj2Qt/8l78C+eGvlY=
+=ZNb7
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/aeolyus
+
+==================================================================
+
